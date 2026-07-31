@@ -1,0 +1,47 @@
+{
+  "poll_interval_sec": 60,
+  "jitter_sec": 15,
+  "_prefectures_help": "エリア名(関東/首都圏/関西/中部/北海道・東北/北信越/四国・中国/九州)、県名(東京/神奈川…)、ID(13)のいずれでも指定できます。省略すると全国。",
+  "watches": [
+    {
+      "name": "関東 エルレイド 8/2",
+      "url": "https://players.pokemon-card.com/event/search?keyword=%E3%82%A8%E3%83%AB%E3%83%AC%E3%82%A4%E3%83%89&start_date=2026/08/02&end_date=2026/08/02&reservation=1&offset=0&accepting=true&order=1",
+      "prefectures": [
+        "関東"
+      ],
+      "enabled": true
+    },
+    {
+      "name": "関東 エルレイド 8月全体",
+      "url": "https://players.pokemon-card.com/event/search?keyword=%E3%82%A8%E3%83%AB%E3%83%AC%E3%82%A4%E3%83%89&start_date=2026/08/01&end_date=2026/08/31&reservation=1&offset=0&accepting=true&order=1",
+      "prefectures": [
+        "関東"
+      ],
+      "enabled": true
+    },
+    {
+      "name": "秋田 エルレイド 8/2",
+      "url": "https://players.pokemon-card.com/event/search?keyword=%E3%82%A8%E3%83%AB%E3%83%AC%E3%82%A4%E3%83%89&start_date=2026/08/02&end_date=2026/08/02&reservation=1&offset=0&accepting=true&order=1",
+      "enabled": false
+    }
+  ],
+  "rules": {
+    "first_come_only": true,
+    "alert_on_new_event": true,
+    "alert_on_full_cleared": true,
+    "alert_on_status_open": true,
+    "alert_on_first_run": false
+  },
+  "notify": {
+    "macos_notification": true,
+    "sound": "Glass",
+    "sound_repeat": 4,
+    "speak": true,
+    "speak_text": "関東で空きが出ました",
+    "speak_voice": "Kyoko",
+    "auto_open": true,
+    "ntfy_topic": "",
+    "discord_webhook": "",
+    "_ntfy_note": "トピック名は .env（ローカル）と GitHub Secrets の NTFY_TOPIC から読み込みます"
+  }
+}

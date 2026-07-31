@@ -1,0 +1,12 @@
+{
+  "関東 エルレイド 8/2": {
+    "events": {},
+    "updated_at": "2026-07-31T23:16:12",
+    "search_url": "https://players.pokemon-card.com/event/search?keyword=%E3%82%A8%E3%83%AB%E3%83%AC%E3%82%A4%E3%83%89&start_date=2026%2F08%2F02&end_date=2026%2F08%2F02&reservation=1&accepting=true&order=1&prefecture[]=8&prefecture[]=9&prefecture[]=10&prefecture[]=11&prefecture[]=12&prefecture[]=13&prefecture[]=14"
+  },
+  "関東 エルレイド 8月全体": {
+    "events": {},
+    "updated_at": "2026-07-31T23:16:17",
+    "search_url": "https://players.pokemon-card.com/event/search?keyword=%E3%82%A8%E3%83%AB%E3%83%AC%E3%82%A4%E3%83%89&start_date=2026%2F08%2F01&end_date=2026%2F08%2F31&reservation=1&accepting=true&order=1&prefecture[]=8&prefecture[]=9&prefecture[]=10&prefecture[]=11&prefecture[]=12&prefecture[]=13&prefecture[]=14"
+  }
+}

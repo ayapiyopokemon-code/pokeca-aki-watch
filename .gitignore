@@ -1,0 +1,12 @@
+# ntfy のトピック名など、公開したくない設定
+.env
+
+# エディタ・ツールのローカル設定
+.claude/
+.DS_Store
+
+# 実行時に生成されるもの
+watch.log
+*.tmp
+__pycache__/
+*.pyc
