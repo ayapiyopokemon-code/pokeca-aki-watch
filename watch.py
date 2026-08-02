@@ -44,6 +44,9 @@ CONFIG_PATH = os.path.join(HERE, "config.json")
 STATE_PATH = os.path.join(HERE, "state.json")
 LOG_PATH = os.path.join(HERE, "watch.log")
 ENV_PATH = os.path.join(HERE, ".env")
+LOCK_PATH = os.path.join(HERE, ".watch.lock")
+
+NET_RETRY_SEC = 15      # ネットワーク不通のときの再挑戦間隔（スリープ復帰待ち）
 
 IS_MAC = sys.platform == "darwin"
 
@@ -52,7 +55,9 @@ MAX_PAGES = 15          # 念のための上限（=最大300件）
 PAGE_SLEEP = 3.0        # ページ送りの間隔（秒）。短すぎるとブロックされる
 IMPERSONATE = "chrome"  # curl_cffi の TLS 偽装プロファイル
 
-# entryStatusCode: 2=先着受付中 / 6=満席 / None=受付前など
+# entryStatusCode は「受付中(2) / 満席(6) / 受付前(None)」しか表さない。
+# 先着と抽選はどちらも 2 なので、区別は entryStatus の文言で行うこと。
+#   "先着受付中" -> 2 / "抽選受付中" -> 2 / "満席" -> 6
 STATUS_OPEN_CODES = {2}
 
 # 都道府県の絞り込みは prefecture[]=13&prefecture[]=14 の形式（prefecture_id は無視される）
@@ -228,7 +233,11 @@ class Fetcher:
 
     def get_page(self, pairs, offset):
         url = BASE + API_PATH + "?" + encode_query(pairs, offset)
-        res = self.session.get(url, headers=self.headers, timeout=25)
+        try:
+            res = self.session.get(url, headers=self.headers, timeout=25)
+        except Exception as e:  # noqa: BLE001 - curl_cffi の各種通信例外
+            # 長いURL付きのメッセージはログが読みづらいので種別だけ残す
+            raise NetworkError(type(e).__name__)
         text = (res.text or "").lstrip()
 
         # 本文が JSON でない = Cloudflare のブロックページ等
@@ -266,7 +275,39 @@ class Fetcher:
 
 
 class BlockedError(Exception):
-    pass
+    """Cloudflare のブロックや API のエラー応答。"""
+
+
+class NetworkError(Exception):
+    """名前解決失敗・タイムアウトなど。スリープ復帰直後によく起きる。"""
+
+
+def acquire_lock():
+    """
+    二重起動を防ぐ。run.sh を2回叩くとアクセス頻度が倍になり、
+    ブロックされやすくなるため。
+    """
+    try:
+        with open(LOCK_PATH, encoding="utf-8") as f:
+            pid = int(f.read().strip())
+        os.kill(pid, 0)          # 生きているか確認（シグナルは送らない）
+    except (OSError, ValueError):
+        pass                     # ファイルが無い/古い/プロセスが死んでいる
+    else:
+        return pid               # まだ動いている
+
+    with open(LOCK_PATH, "w", encoding="utf-8") as f:
+        f.write(str(os.getpid()))
+    return None
+
+
+def release_lock():
+    try:
+        with open(LOCK_PATH, encoding="utf-8") as f:
+            if int(f.read().strip()) == os.getpid():
+                os.remove(LOCK_PATH)
+    except (OSError, ValueError):
+        pass
 
 
 # ---------------------------------------------------------------- event model
@@ -291,16 +332,21 @@ def summarize(ev):
     }
 
 
+def is_accepting(snap):
+    """受付中か（先着・抽選どちらも含む）。"""
+    return snap.get("status_code") in STATUS_OPEN_CODES
+
+
 def is_first_come(snap):
-    status = snap.get("status") or ""
-    return snap.get("status_code") in STATUS_OPEN_CODES or "先着" in status
+    """先着受付か。抽選も status_code は 2 なので、文言で判定する。"""
+    return "先着" in (snap.get("status") or "")
 
 
 def has_vacancy(snap):
     """先着で今すぐ申し込めそうか。"""
     if snap.get("cancel"):
         return False
-    if not is_first_come(snap):
+    if not (is_first_come(snap) and is_accepting(snap)):
         return False
     return snap.get("full") in (0, None, False)
 
@@ -349,9 +395,11 @@ def diff_events(prev, curr, rules):
                 continue
 
         if rules.get("alert_on_status_open", True):
-            was_open = before.get("status_code") in STATUS_OPEN_CODES
-            is_open = now.get("status_code") in STATUS_OPEN_CODES
-            if is_open and not was_open:
+            # 抽選 → 追加先着 への切り替わり。9月以降の本命の合図。
+            if is_first_come(now) and not is_first_come(before):
+                hits.append(("先着受付が始まりました（抽選から切り替わり）", now))
+                continue
+            if is_accepting(now) and not is_accepting(before):
                 hits.append(("先着受付が開始／再開されました", now))
                 continue
             if now.get("restart") and not before.get("restart"):
@@ -555,6 +603,16 @@ def main():
     if not watches:
         sys.exit("config.json の watches が空です。")
 
+    if not (args.once or args.status):
+        running_pid = acquire_lock()
+        if running_pid:
+            sys.exit(
+                "すでに監視が動いています（PID {}）。二重に動かすとアクセス頻度が倍になり、\n"
+                "サイトにブロックされやすくなるため起動を中止しました。\n"
+                "止めたい場合は、動かしているターミナルで Ctrl-C を押すか:\n"
+                "    kill {}".format(running_pid, running_pid)
+            )
+
     state = load_json(STATE_PATH, {})
     fetcher = Fetcher()
     interval = int(cfg.get("poll_interval_sec", 60))
@@ -566,22 +624,60 @@ def main():
         log("  - {}".format(w.get("name") or w["url"]))
 
     try:
+        offline_since = None
+        next_due = {}          # 条件ごとの次回チェック時刻
         while True:
             blocked = False
+            offline = False
             succeeded = 0
+            checked = 0
+            now = time.time()
             for w in watches:
                 name = w.get("name") or w["url"]
+
+                # ヒット件数が多い条件はページ送りが増えるので、
+                # interval_sec で個別にゆっくり回せるようにする
+                if not (args.once or args.status) and next_due.get(name, 0) > now:
+                    continue
+                next_due[name] = now + int(w.get("interval_sec", interval))
+                checked += 1
+
                 first_run = name not in state
                 try:
-                    check_watch(fetcher, w, state, cfg, first_run, dry_run=args.status)
+                    # --once（GitHub Actions）では次のチャンスが遠いので、
+                    # 一時的なブロックはその場で粘る
+                    attempts = 4 if args.once else 1
+                    for attempt in range(1, attempts + 1):
+                        try:
+                            check_watch(fetcher, w, state, cfg, first_run, dry_run=args.status)
+                            break
+                        except BlockedError:
+                            if attempt == attempts:
+                                raise
+                            wait = 20 * attempt
+                            log("[{}] ブロックされました。{}秒後に再試行 ({}/{})"
+                                .format(name, wait, attempt, attempts - 1))
+                            time.sleep(wait)
                     succeeded += 1
+                except NetworkError as e:
+                    offline = True
+                    if offline_since is None:
+                        log("ネットワークに繋がりません（{}）。復帰まで{}秒おきに再試行します"
+                            .format(e, NET_RETRY_SEC))
                 except BlockedError as e:
                     blocked = True
                     log("[{}] 取得できず: {}".format(name, e))
                 except Exception as e:  # noqa: BLE001 - 監視は止めない
                     log("[{}] エラー: {}: {}".format(name, type(e).__name__, e))
-                if len(watches) > 1:
+                if len(watches) > 1 and checked:
                     time.sleep(PAGE_SLEEP)
+
+            if offline and offline_since is None:
+                offline_since = time.time()
+            elif not offline and offline_since is not None:
+                mins = int((time.time() - offline_since) / 60)
+                log("ネットワーク復帰。約{}分ぶん監視できていませんでした".format(mins))
+                offline_since = None
 
             if not args.status:
                 save_json(STATE_PATH, state)
@@ -593,6 +689,12 @@ def main():
                     sys.exit("全ての条件で取得に失敗しました（ブロックまたは通信エラー）")
                 return
 
+            if offline:
+                # スリープ復帰直後は Wi-Fi がまだ繋がっていないだけなので、
+                # 通常間隔を待たずに短い間隔で様子を見る（ログも汚さない）
+                time.sleep(NET_RETRY_SEC)
+                continue
+
             if blocked:
                 backoff = min(600, (backoff * 2) or 60)
                 log("アクセス制限のため {} 秒待機します".format(backoff))
@@ -600,11 +702,15 @@ def main():
                 continue
 
             backoff = 0
-            wait = max(15, interval + random.randint(-jitter, jitter))
-            time.sleep(wait)
+            # 一番早く期限が来る条件に合わせて起きる（条件ごとに間隔が違うため）
+            soonest = min(next_due.values()) if next_due else time.time() + interval
+            wait = soonest - time.time() + random.randint(-jitter, jitter)
+            time.sleep(max(5, wait))
     except KeyboardInterrupt:
         save_json(STATE_PATH, state)
         log("監視を停止しました。")
+    finally:
+        release_lock()
 
 
 if __name__ == "__main__":

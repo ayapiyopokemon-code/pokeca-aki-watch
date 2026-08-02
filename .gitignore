@@ -10,3 +10,6 @@ watch.log
 *.tmp
 __pycache__/
 *.pyc
+
+# 二重起動防止のロック
+.watch.lock
