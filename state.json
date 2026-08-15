@@ -1,7 +1,24 @@
 {
   "関東 エルレイド 8月": {
-    "events": {},
-    "updated_at": "2026-08-14T09:16:40",
+    "events": {
+      "1877446": {
+        "title": "メガエルレイドexSARゲットバトル【7-8月開催分】",
+        "shop": "福福トレカ　秋葉原店",
+        "pref": "東京都",
+        "date": "08/21",
+        "start": "14:30",
+        "end": "18:00",
+        "capacity": 32,
+        "status": "先着受付中",
+        "status_code": 2,
+        "full": 1,
+        "restart": 0,
+        "recruit": 1,
+        "cancel": 0,
+        "url": "https://players.pokemon-card.com/event/detail/1059200/1/14190/20260821/1877446"
+      }
+    },
+    "updated_at": "2026-08-15T10:19:59",
     "search_url": "https://players.pokemon-card.com/event/search?keyword=%E3%82%A8%E3%83%AB%E3%83%AC%E3%82%A4%E3%83%89&start_date=2026%2F08%2F01&end_date=2026%2F08%2F31&reservation=1&accepting=true&order=1&prefecture[]=8&prefecture[]=9&prefecture[]=10&prefecture[]=11&prefecture[]=12&prefecture[]=13&prefecture[]=14"
   },
   "関東 エルレイド 9-12月": {
