@@ -1,7 +1,40 @@
 {
   "関東 エルレイド 8月": {
-    "events": {},
-    "updated_at": "2026-08-21T08:20:31",
+    "events": {
+      "1877491": {
+        "title": "メガエルレイドexSARゲットバトル【7-8月開催分】",
+        "shop": "ブックオフスーパーバザー　多摩永山",
+        "pref": "東京都",
+        "date": "08/23",
+        "start": "13:30",
+        "end": "17:00",
+        "capacity": 32,
+        "status": "先着受付中",
+        "status_code": 2,
+        "full": 1,
+        "restart": 0,
+        "recruit": 1,
+        "cancel": 0,
+        "url": "https://players.pokemon-card.com/event/detail/1059270/1/20753/20260823/1877491"
+      },
+      "1877724": {
+        "title": "メガエルレイドexSARゲットバトル【7-8月開催分】",
+        "shop": "BOOKOFF　イオン橋本",
+        "pref": "神奈川県",
+        "date": "08/23",
+        "start": "14:30",
+        "end": "17:00",
+        "capacity": 64,
+        "status": "先着受付中",
+        "status_code": 2,
+        "full": 1,
+        "restart": 0,
+        "recruit": 1,
+        "cancel": 0,
+        "url": "https://players.pokemon-card.com/event/detail/1059274/1/19993/20260823/1877724"
+      }
+    },
+    "updated_at": "2026-08-22T07:50:26",
     "search_url": "https://players.pokemon-card.com/event/search?keyword=%E3%82%A8%E3%83%AB%E3%83%AC%E3%82%A4%E3%83%89&start_date=2026%2F08%2F01&end_date=2026%2F08%2F31&reservation=1&accepting=true&order=1&prefecture[]=8&prefecture[]=9&prefecture[]=10&prefecture[]=11&prefecture[]=12&prefecture[]=13&prefecture[]=14"
   },
   "関東 エルレイド 9-12月": {
