@@ -102,6 +102,22 @@
         "cancel": 0,
         "url": "https://players.pokemon-card.com/event/detail/1112117/1/18425/20260903/1910990"
       },
+      "1910330": {
+        "title": "メガエルレイドexSARゲットバトル【9月開催分】",
+        "shop": "フルコンプ　PLAYERS CENTER　八王子本店",
+        "pref": "東京都",
+        "date": "09/04",
+        "start": "13:00",
+        "end": "",
+        "capacity": 64,
+        "status": "先着受付前",
+        "status_code": 5,
+        "full": 1,
+        "restart": 0,
+        "recruit": 1,
+        "cancel": 0,
+        "url": "https://players.pokemon-card.com/event/detail/1112121/1/10459/20260904/1910330"
+      },
       "1910519": {
         "title": "メガエルレイドexSARゲットバトル【9月開催分】",
         "shop": "ブックオフ イトーヨカドー溝ノ口店",
@@ -118,6 +134,22 @@
         "cancel": 0,
         "url": "https://players.pokemon-card.com/event/detail/1112124/1/20020/20260904/1910519"
       },
+      "1910295": {
+        "title": "メガエルレイドexSARゲットバトル【9月開催分】",
+        "shop": "秋葉原チェルモ",
+        "pref": "東京都",
+        "date": "09/04",
+        "start": "14:00",
+        "end": "",
+        "capacity": 64,
+        "status": "先着受付前",
+        "status_code": 5,
+        "full": 1,
+        "restart": 0,
+        "recruit": 1,
+        "cancel": 0,
+        "url": "https://players.pokemon-card.com/event/detail/1112125/1/10377/20260904/1910295"
+      },
       "1910799": {
         "title": "メガエルレイドexSARゲットバトル【9月開催分】",
         "shop": "TSUTAYA嵐山店",
@@ -133,6 +165,38 @@
         "recruit": 1,
         "cancel": 0,
         "url": "https://players.pokemon-card.com/event/detail/1112128/1/14667/20260904/1910799"
+      },
+      "1910119": {
+        "title": "メガエルレイドexSARゲットバトル【9月開催分】",
+        "shop": "BOOKOFF SUPER BAZAAR 立川駅北口店",
+        "pref": "東京都",
+        "date": "09/05",
+        "start": "10:30",
+        "end": "14:00",
+        "capacity": 32,
+        "status": "先着受付前",
+        "status_code": 5,
+        "full": 1,
+        "restart": 0,
+        "recruit": 1,
+        "cancel": 0,
+        "url": "https://players.pokemon-card.com/event/detail/1112136/1/18174/20260905/1910119"
+      },
+      "1910593": {
+        "title": "メガエルレイドexSARゲットバトル【9月開催分】",
+        "shop": "ブックオフ港北綱島西店",
+        "pref": "神奈川県",
+        "date": "09/05",
+        "start": "14:15",
+        "end": "16:30",
+        "capacity": 64,
+        "status": "先着受付前",
+        "status_code": 5,
+        "full": 1,
+        "restart": 0,
+        "recruit": 1,
+        "cancel": 0,
+        "url": "https://players.pokemon-card.com/event/detail/1112152/1/19017/20260905/1910593"
       },
       "1910301": {
         "title": "メガエルレイドexSARゲットバトル【9月開催分】",
@@ -278,6 +342,22 @@
         "cancel": 0,
         "url": "https://players.pokemon-card.com/event/detail/1112239/1/19004/20260911/1910556"
       },
+      "1910335": {
+        "title": "メガエルレイドexSARゲットバトル【9月開催分】",
+        "shop": "福福トレカ　秋葉原店",
+        "pref": "東京都",
+        "date": "09/11",
+        "start": "14:30",
+        "end": "18:00",
+        "capacity": 32,
+        "status": "先着受付前",
+        "status_code": 5,
+        "full": 1,
+        "restart": 0,
+        "recruit": 1,
+        "cancel": 0,
+        "url": "https://players.pokemon-card.com/event/detail/1112242/1/14190/20260911/1910335"
+      },
       "1910280": {
         "title": "メガエルレイドexSARゲットバトル【9月開催分】",
         "shop": "BOOKOFFSUPERBAZAAR町田中央通り店",
@@ -293,6 +373,22 @@
         "recruit": 1,
         "cancel": 0,
         "url": "https://players.pokemon-card.com/event/detail/1112268/1/19083/20260912/1910280"
+      },
+      "1910377": {
+        "title": "メガエルレイドexSARゲットバトル【9月開催分】",
+        "shop": "ブックオフ　相模大野店",
+        "pref": "神奈川県",
+        "date": "09/12",
+        "start": "14:30",
+        "end": "",
+        "capacity": 64,
+        "status": "先着受付前",
+        "status_code": 5,
+        "full": 1,
+        "restart": 0,
+        "recruit": 1,
+        "cancel": 0,
+        "url": "https://players.pokemon-card.com/event/detail/1112273/1/18911/20260912/1910377"
       },
       "1910162": {
         "title": "メガエルレイドexSARゲットバトル【9月開催分】",
@@ -357,6 +453,22 @@
         "recruit": 1,
         "cancel": 0,
         "url": "https://players.pokemon-card.com/event/detail/1112299/1/13186/20260913/1910894"
+      },
+      "1910557": {
+        "title": "メガエルレイドexSARゲットバトル【9月開催分】",
+        "shop": "BOOKOFF イオン本牧店",
+        "pref": "神奈川県",
+        "date": "09/13",
+        "start": "13:00",
+        "end": "",
+        "capacity": 32,
+        "status": "先着受付前",
+        "status_code": 5,
+        "full": 1,
+        "restart": 0,
+        "recruit": 1,
+        "cancel": 0,
+        "url": "https://players.pokemon-card.com/event/detail/1112306/1/19004/20260913/1910557"
       },
       "1910898": {
         "title": "メガエルレイドexSARゲットバトル【9月開催分】",
@@ -502,6 +614,38 @@
         "cancel": 0,
         "url": "https://players.pokemon-card.com/event/detail/1112365/1/10459/20260918/1910332"
       },
+      "1910157": {
+        "title": "メガエルレイドexSARゲットバトル【9月開催分】",
+        "shop": "ドラゴンスター池袋店",
+        "pref": "東京都",
+        "date": "09/18",
+        "start": "13:00",
+        "end": "15:00",
+        "capacity": 64,
+        "status": "先着受付前",
+        "status_code": 5,
+        "full": 1,
+        "restart": 0,
+        "recruit": 1,
+        "cancel": 0,
+        "url": "https://players.pokemon-card.com/event/detail/1112366/1/19052/20260918/1910157"
+      },
+      "1910336": {
+        "title": "メガエルレイドexSARゲットバトル【9月開催分】",
+        "shop": "福福トレカ　秋葉原店",
+        "pref": "東京都",
+        "date": "09/18",
+        "start": "14:30",
+        "end": "18:00",
+        "capacity": 32,
+        "status": "先着受付前",
+        "status_code": 5,
+        "full": 1,
+        "restart": 0,
+        "recruit": 1,
+        "cancel": 0,
+        "url": "https://players.pokemon-card.com/event/detail/1112368/1/14190/20260918/1910336"
+      },
       "1910801": {
         "title": "メガエルレイドexSARゲットバトル【9月開催分】",
         "shop": "TSUTAYA嵐山店",
@@ -517,6 +661,38 @@
         "recruit": 1,
         "cancel": 0,
         "url": "https://players.pokemon-card.com/event/detail/1112370/1/14667/20260918/1910801"
+      },
+      "1910378": {
+        "title": "メガエルレイドexSARゲットバトル【9月開催分】",
+        "shop": "ブックオフ　相模大野店",
+        "pref": "神奈川県",
+        "date": "09/19",
+        "start": "10:30",
+        "end": "",
+        "capacity": 64,
+        "status": "先着受付前",
+        "status_code": 5,
+        "full": 1,
+        "restart": 0,
+        "recruit": 1,
+        "cancel": 0,
+        "url": "https://players.pokemon-card.com/event/detail/1112379/1/18911/20260919/1910378"
+      },
+      "1910120": {
+        "title": "メガエルレイドexSARゲットバトル【9月開催分】",
+        "shop": "BOOKOFF SUPER BAZAAR 立川駅北口店",
+        "pref": "東京都",
+        "date": "09/19",
+        "start": "10:30",
+        "end": "14:00",
+        "capacity": 32,
+        "status": "先着受付前",
+        "status_code": 5,
+        "full": 1,
+        "restart": 0,
+        "recruit": 1,
+        "cancel": 0,
+        "url": "https://players.pokemon-card.com/event/detail/1112382/1/18174/20260919/1910120"
       },
       "1910595": {
         "title": "メガエルレイドexSARゲットバトル【9月開催分】",
@@ -646,6 +822,22 @@
         "cancel": 0,
         "url": "https://players.pokemon-card.com/event/detail/1112581/1/18425/20260924/1910995"
       },
+      "1910299": {
+        "title": "メガエルレイドexSARゲットバトル【9月開催分】",
+        "shop": "秋葉原チェルモ",
+        "pref": "東京都",
+        "date": "09/24",
+        "start": "14:00",
+        "end": "",
+        "capacity": 64,
+        "status": "先着受付前",
+        "status_code": 5,
+        "full": 1,
+        "restart": 0,
+        "recruit": 1,
+        "cancel": 0,
+        "url": "https://players.pokemon-card.com/event/detail/1112585/1/10377/20260924/1910299"
+      },
       "1910564": {
         "title": "メガエルレイドexSARゲットバトル【9月開催分】",
         "shop": "BOOKOFF イオン本牧店",
@@ -757,9 +949,25 @@
         "recruit": 1,
         "cancel": 0,
         "url": "https://players.pokemon-card.com/event/detail/1112676/1/13701/20260930/1910313"
+      },
+      "1911231": {
+        "title": "メガエルレイドexSARゲットバトル【9月開催分】",
+        "shop": "ブックエースTSUTAYA　勝田東石川店",
+        "pref": "茨城県",
+        "date": "09/30",
+        "start": "18:00",
+        "end": "22:00",
+        "capacity": 32,
+        "status": "先着受付前",
+        "status_code": 5,
+        "full": 1,
+        "restart": 0,
+        "recruit": 1,
+        "cancel": 0,
+        "url": "https://players.pokemon-card.com/event/detail/1112678/1/12739/20260930/1911231"
       }
     },
-    "updated_at": "2026-08-24T06:32:20",
+    "updated_at": "2026-08-24T07:40:56",
     "search_url": "https://players.pokemon-card.com/event/search?keyword=%E3%82%A8%E3%83%AB%E3%83%AC%E3%82%A4%E3%83%89&start_date=2026%2F09%2F01&end_date=2026%2F12%2F31&reservation=1&accepting=true&order=1&prefecture[]=8&prefecture[]=9&prefecture[]=10&prefecture[]=11&prefecture[]=12&prefecture[]=13&prefecture[]=14"
   }
 }
