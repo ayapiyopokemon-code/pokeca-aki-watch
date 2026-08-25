@@ -1478,6 +1478,22 @@
         "cancel": 0,
         "url": "https://players.pokemon-card.com/event/detail/1112502/1/19972/20260922/1910599"
       },
+      "1910918": {
+        "title": "メガエルレイドexSARゲットバトル【9月開催分】",
+        "shop": "トレカショップKCC",
+        "pref": "埼玉県",
+        "date": "09/22",
+        "start": "12:00",
+        "end": "",
+        "capacity": 40,
+        "status": "先着受付前",
+        "status_code": 5,
+        "full": 1,
+        "restart": 0,
+        "recruit": 1,
+        "cancel": 0,
+        "url": "https://players.pokemon-card.com/event/detail/1112509/1/13186/20260922/1910918"
+      },
       "1910319": {
         "title": "メガエルレイドexSARゲットバトル【9月開催分】",
         "shop": "BOOKOFF SUPER BAZAAR 西友大森店",
@@ -1815,7 +1831,7 @@
         "url": "https://players.pokemon-card.com/event/detail/1112678/1/12739/20260930/1911231"
       }
     },
-    "updated_at": "2026-08-25T15:54:44",
+    "updated_at": "2026-08-25T21:58:38",
     "search_url": "https://players.pokemon-card.com/event/search?keyword=%E3%82%A8%E3%83%AB%E3%83%AC%E3%82%A4%E3%83%89&start_date=2026%2F09%2F01&end_date=2026%2F12%2F31&reservation=1&accepting=true&order=1&prefecture[]=8&prefecture[]=9&prefecture[]=10&prefecture[]=11&prefecture[]=12&prefecture[]=13&prefecture[]=14"
   }
 }
