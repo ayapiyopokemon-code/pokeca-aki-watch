@@ -550,6 +550,22 @@
         "cancel": 0,
         "url": "https://players.pokemon-card.com/event/detail/1112230/1/14660/20260910/1910259"
       },
+      "1910987": {
+        "title": "メガエルレイドexSARゲットバトル【9月開催分】",
+        "shop": "ドラゴンスター秋葉原駅前店",
+        "pref": "東京都",
+        "date": "09/10",
+        "start": "13:00",
+        "end": "17:00",
+        "capacity": 32,
+        "status": "先着受付前",
+        "status_code": 5,
+        "full": 1,
+        "restart": 0,
+        "recruit": 1,
+        "cancel": 0,
+        "url": "https://players.pokemon-card.com/event/detail/1112232/1/18442/20260910/1910987"
+      },
       "1910789": {
         "title": "メガエルレイドexSARゲットバトル【9月開催分】",
         "shop": "バトロコミニ前橋文京店",
@@ -1799,7 +1815,7 @@
         "url": "https://players.pokemon-card.com/event/detail/1112678/1/12739/20260930/1911231"
       }
     },
-    "updated_at": "2026-08-25T15:04:29",
+    "updated_at": "2026-08-25T15:54:44",
     "search_url": "https://players.pokemon-card.com/event/search?keyword=%E3%82%A8%E3%83%AB%E3%83%AC%E3%82%A4%E3%83%89&start_date=2026%2F09%2F01&end_date=2026%2F12%2F31&reservation=1&accepting=true&order=1&prefecture[]=8&prefecture[]=9&prefecture[]=10&prefecture[]=11&prefecture[]=12&prefecture[]=13&prefecture[]=14"
   }
 }
