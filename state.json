@@ -6,6 +6,54 @@
   },
   "関東 エルレイド 9-12月": {
     "events": {
+      "1910285": {
+        "title": "メガエルレイドexSARゲットバトル【9月開催分】",
+        "shop": "BOOKOFFSUPERBAZAAR町田中央通り店",
+        "pref": "東京都",
+        "date": "09/16",
+        "start": "10:30",
+        "end": "13:30",
+        "capacity": 64,
+        "status": "先着受付中",
+        "status_code": 2,
+        "full": 1,
+        "restart": 0,
+        "recruit": 1,
+        "cancel": 0,
+        "url": "https://players.pokemon-card.com/event/detail/1112347/1/19083/20260916/1910285"
+      },
+      "1910993": {
+        "title": "メガエルレイドexSARゲットバトル【9月開催分】",
+        "shop": "青馬堂本店",
+        "pref": "神奈川県",
+        "date": "09/16",
+        "start": "11:00",
+        "end": "",
+        "capacity": 64,
+        "status": "先着受付中",
+        "status_code": 2,
+        "full": 1,
+        "restart": 0,
+        "recruit": 1,
+        "cancel": 0,
+        "url": "https://players.pokemon-card.com/event/detail/1112348/1/18425/20260916/1910993"
+      },
+      "1910310": {
+        "title": "メガエルレイドexSARゲットバトル【9月開催分】",
+        "shop": "トーナメントセンターバトロコ　本厚木駅前",
+        "pref": "神奈川県",
+        "date": "09/16",
+        "start": "13:30",
+        "end": "16:00",
+        "capacity": 64,
+        "status": "先着受付中",
+        "status_code": 2,
+        "full": 1,
+        "restart": 0,
+        "recruit": 1,
+        "cancel": 0,
+        "url": "https://players.pokemon-card.com/event/detail/1112350/1/13701/20260916/1910310"
+      },
       "1910282": {
         "title": "メガエルレイドexSARゲットバトル【9月開催分】",
         "shop": "BOOKOFFSUPERBAZAAR町田中央通り店",
@@ -21,6 +69,22 @@
         "recruit": 1,
         "cancel": 0,
         "url": "https://players.pokemon-card.com/event/detail/1112351/1/19083/20260916/1910282"
+      },
+      "1911230": {
+        "title": "メガエルレイドexSARゲットバトル【9月開催分】",
+        "shop": "ブックエースTSUTAYA　勝田東石川店",
+        "pref": "茨城県",
+        "date": "09/16",
+        "start": "18:00",
+        "end": "22:00",
+        "capacity": 32,
+        "status": "先着受付中",
+        "status_code": 2,
+        "full": 1,
+        "restart": 0,
+        "recruit": 1,
+        "cancel": 0,
+        "url": "https://players.pokemon-card.com/event/detail/1112356/1/12739/20260916/1911230"
       },
       "1942014": {
         "title": "メガエルレイドexSARゲットバトル【10月開催分】",
@@ -2359,7 +2423,7 @@
         "url": "https://players.pokemon-card.com/event/detail/1116449/1/19972/20261031/1942202"
       }
     },
-    "updated_at": "2026-09-15T05:16:51",
+    "updated_at": "2026-09-15T10:11:37",
     "search_url": "https://players.pokemon-card.com/event/search?keyword=%E3%82%A8%E3%83%AB%E3%83%AC%E3%82%A4%E3%83%89&start_date=2026%2F09%2F01&end_date=2026%2F12%2F31&reservation=1&accepting=true&order=1&prefecture[]=8&prefecture[]=9&prefecture[]=10&prefecture[]=11&prefecture[]=12&prefecture[]=13&prefecture[]=14"
   }
 }
