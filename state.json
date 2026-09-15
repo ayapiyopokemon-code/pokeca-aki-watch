@@ -22,22 +22,6 @@
         "cancel": 0,
         "url": "https://players.pokemon-card.com/event/detail/1112351/1/19083/20260916/1910282"
       },
-      "1910521": {
-        "title": "メガエルレイドexSARゲットバトル【9月開催分】",
-        "shop": "ブックオフ イトーヨカドー溝ノ口店",
-        "pref": "神奈川県",
-        "date": "09/18",
-        "start": "14:00",
-        "end": "",
-        "capacity": 32,
-        "status": "先着受付中",
-        "status_code": 2,
-        "full": 1,
-        "restart": 0,
-        "recruit": 1,
-        "cancel": 0,
-        "url": "https://players.pokemon-card.com/event/detail/1112367/1/20020/20260918/1910521"
-      },
       "1942014": {
         "title": "メガエルレイドexSARゲットバトル【10月開催分】",
         "shop": "BOOKOFF SUPER BAZAAR 立川駅北口店",
@@ -677,6 +661,22 @@
         "recruit": 1,
         "cancel": 0,
         "url": "https://players.pokemon-card.com/event/detail/1115989/1/12654/20261010/1941935"
+      },
+      "1942396": {
+        "title": "メガエルレイドexSARゲットバトル【10月開催分】",
+        "shop": "ブックオフ　相模大野店",
+        "pref": "神奈川県",
+        "date": "10/10",
+        "start": "15:30",
+        "end": "",
+        "capacity": 64,
+        "status": "先着受付前",
+        "status_code": 5,
+        "full": 1,
+        "restart": 0,
+        "recruit": 1,
+        "cancel": 0,
+        "url": "https://players.pokemon-card.com/event/detail/1115998/1/18911/20261010/1942396"
       },
       "1941941": {
         "title": "メガエルレイドexSARゲットバトル【10月開催分】",
@@ -2359,7 +2359,7 @@
         "url": "https://players.pokemon-card.com/event/detail/1116449/1/19972/20261031/1942202"
       }
     },
-    "updated_at": "2026-09-14T22:09:39",
+    "updated_at": "2026-09-15T05:16:51",
     "search_url": "https://players.pokemon-card.com/event/search?keyword=%E3%82%A8%E3%83%AB%E3%83%AC%E3%82%A4%E3%83%89&start_date=2026%2F09%2F01&end_date=2026%2F12%2F31&reservation=1&accepting=true&order=1&prefecture[]=8&prefecture[]=9&prefecture[]=10&prefecture[]=11&prefecture[]=12&prefecture[]=13&prefecture[]=14"
   }
 }
