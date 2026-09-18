@@ -6,37 +6,21 @@
   },
   "関東 エルレイド 9-12月": {
     "events": {
-      "1910379": {
+      "1910564": {
         "title": "メガエルレイドexSARゲットバトル【9月開催分】",
-        "shop": "ブックオフ　相模大野店",
+        "shop": "BOOKOFF イオン本牧店",
         "pref": "神奈川県",
-        "date": "09/20",
-        "start": "10:30",
+        "date": "09/25",
+        "start": "13:00",
         "end": "",
-        "capacity": 64,
+        "capacity": 32,
         "status": "先着受付中",
         "status_code": 2,
         "full": 1,
         "restart": 0,
         "recruit": 1,
         "cancel": 0,
-        "url": "https://players.pokemon-card.com/event/detail/1112417/1/18911/20260920/1910379"
-      },
-      "1942014": {
-        "title": "メガエルレイドexSARゲットバトル【10月開催分】",
-        "shop": "BOOKOFF SUPER BAZAAR 立川駅北口店",
-        "pref": "東京都",
-        "date": "10/02",
-        "start": "10:30",
-        "end": "13:30",
-        "capacity": 64,
-        "status": "先着受付中",
-        "status_code": 2,
-        "full": 1,
-        "restart": 0,
-        "recruit": 1,
-        "cancel": 0,
-        "url": "https://players.pokemon-card.com/event/detail/1115850/1/18174/20261002/1942014"
+        "url": "https://players.pokemon-card.com/event/detail/1112592/1/19004/20260925/1910564"
       },
       "1941900": {
         "title": "メガエルレイドexSARゲットバトル【10月開催分】",
@@ -919,7 +903,7 @@
         "url": "https://players.pokemon-card.com/event/detail/1116411/1/14667/20261030/1941831"
       }
     },
-    "updated_at": "2026-09-18T18:26:58",
+    "updated_at": "2026-09-18T23:15:03",
     "search_url": "https://players.pokemon-card.com/event/search?keyword=%E3%82%A8%E3%83%AB%E3%83%AC%E3%82%A4%E3%83%89&start_date=2026%2F09%2F01&end_date=2026%2F12%2F31&reservation=1&accepting=true&order=1&prefecture[]=8&prefecture[]=9&prefecture[]=10&prefecture[]=11&prefecture[]=12&prefecture[]=13&prefecture[]=14"
   }
 }
