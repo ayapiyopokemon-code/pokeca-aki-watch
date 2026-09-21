@@ -6,13 +6,13 @@
   },
   "関東 エルレイド 9-12月": {
     "events": {
-      "1942014": {
-        "title": "メガエルレイドexSARゲットバトル【10月開催分】",
-        "shop": "BOOKOFF SUPER BAZAAR 立川駅北口店",
-        "pref": "東京都",
-        "date": "10/02",
-        "start": "10:30",
-        "end": "13:30",
+      "1910424": {
+        "title": "メガエルレイドexSARゲットバトル【9月開催分】",
+        "shop": "トーナメントセンターバトロコ　新津田沼駅前",
+        "pref": "千葉県",
+        "date": "09/28",
+        "start": "12:00",
+        "end": "18:00",
         "capacity": 64,
         "status": "先着受付中",
         "status_code": 2,
@@ -20,14 +20,30 @@
         "restart": 0,
         "recruit": 1,
         "cancel": 0,
-        "url": "https://players.pokemon-card.com/event/detail/1115850/1/18174/20261002/1942014"
+        "url": "https://players.pokemon-card.com/event/detail/1112653/1/18187/20260928/1910424"
       },
-      "1942692": {
+      "1910567": {
+        "title": "メガエルレイドexSARゲットバトル【9月開催分】",
+        "shop": "BOOKOFF イオン本牧店",
+        "pref": "神奈川県",
+        "date": "09/29",
+        "start": "13:00",
+        "end": "",
+        "capacity": 32,
+        "status": "先着受付中",
+        "status_code": 2,
+        "full": 1,
+        "restart": 0,
+        "recruit": 1,
+        "cancel": 0,
+        "url": "https://players.pokemon-card.com/event/detail/1112666/1/19004/20260929/1910567"
+      },
+      "1942693": {
         "title": "メガエルレイドexSARゲットバトル【10月開催分】",
         "shop": "トーナメントセンターバトロコ　水戸駅前",
         "pref": "茨城県",
         "date": "10/04",
-        "start": "11:00",
+        "start": "15:00",
         "end": "",
         "capacity": 64,
         "status": "先着受付中",
@@ -36,15 +52,15 @@
         "restart": 0,
         "recruit": 1,
         "cancel": 0,
-        "url": "https://players.pokemon-card.com/event/detail/1115899/1/12158/20261004/1942692"
+        "url": "https://players.pokemon-card.com/event/detail/1115911/1/12158/20261004/1942693"
       },
-      "1943014": {
+      "1942500": {
         "title": "メガエルレイドexSARゲットバトル【10月開催分】",
-        "shop": "フルコンプ千葉店",
-        "pref": "千葉県",
-        "date": "10/04",
-        "start": "12:00",
-        "end": "16:30",
+        "shop": "BOOKOFF SUPERBAZAAR　PAPA上尾店",
+        "pref": "埼玉県",
+        "date": "10/05",
+        "start": "11:30",
+        "end": "17:00",
         "capacity": 64,
         "status": "先着受付中",
         "status_code": 2,
@@ -52,7 +68,7 @@
         "restart": 0,
         "recruit": 1,
         "cancel": 0,
-        "url": "https://players.pokemon-card.com/event/detail/1115902/1/20046/20261004/1943014"
+        "url": "https://players.pokemon-card.com/event/detail/1115919/1/19051/20261005/1942500"
       },
       "1941900": {
         "title": "メガエルレイドexSARゲットバトル【10月開催分】",
@@ -69,6 +85,22 @@
         "recruit": 1,
         "cancel": 0,
         "url": "https://players.pokemon-card.com/event/detail/1115947/1/14764/20261007/1941900"
+      },
+      "1941792": {
+        "title": "メガエルレイドexSARゲットバトル【10月開催分】",
+        "shop": "トーナメントセンターバトロコ　本厚木駅前",
+        "pref": "神奈川県",
+        "date": "10/07",
+        "start": "13:30",
+        "end": "17:00",
+        "capacity": 64,
+        "status": "先着受付中",
+        "status_code": 2,
+        "full": 1,
+        "restart": 0,
+        "recruit": 1,
+        "cancel": 0,
+        "url": "https://players.pokemon-card.com/event/detail/1115952/1/13701/20261007/1941792"
       },
       "1942661": {
         "title": "メガエルレイドexSARゲットバトル【10月開催分】",
@@ -112,27 +144,11 @@
         "capacity": 56,
         "status": "先着受付中",
         "status_code": 2,
-        "full": 0,
+        "full": 1,
         "restart": 0,
         "recruit": 1,
         "cancel": 0,
         "url": "https://players.pokemon-card.com/event/detail/1116080/1/13186/20261013/1942145"
-      },
-      "1942017": {
-        "title": "メガエルレイドexSARゲットバトル【10月開催分】",
-        "shop": "BOOKOFF SUPER BAZAAR 立川駅北口店",
-        "pref": "東京都",
-        "date": "10/14",
-        "start": "10:30",
-        "end": "13:30",
-        "capacity": 64,
-        "status": "先着受付中",
-        "status_code": 2,
-        "full": 0,
-        "restart": 0,
-        "recruit": 1,
-        "cancel": 0,
-        "url": "https://players.pokemon-card.com/event/detail/1116098/1/18174/20261014/1942017"
       },
       "1943017": {
         "title": "メガエルレイドexSARゲットバトル【10月開催分】",
@@ -277,22 +293,6 @@
         "recruit": 1,
         "cancel": 0,
         "url": "https://players.pokemon-card.com/event/detail/1116125/1/10459/20261016/1941959"
-      },
-      "1941829": {
-        "title": "メガエルレイドexSARゲットバトル【10月開催分】",
-        "shop": "TSUTAYA嵐山店",
-        "pref": "埼玉県",
-        "date": "10/16",
-        "start": "16:30",
-        "end": "",
-        "capacity": 32,
-        "status": "先着受付中",
-        "status_code": 2,
-        "full": 0,
-        "restart": 0,
-        "recruit": 1,
-        "cancel": 0,
-        "url": "https://players.pokemon-card.com/event/detail/1116128/1/14667/20261016/1941829"
       },
       "1943019": {
         "title": "メガエルレイドexSARゲットバトル【10月開催分】",
@@ -598,22 +598,6 @@
         "cancel": 0,
         "url": "https://players.pokemon-card.com/event/detail/1116272/1/14667/20261023/1941830"
       },
-      "1941866": {
-        "title": "メガエルレイドexSARゲットバトル【10月開催分】",
-        "shop": "TSUTAYAレイクタウン",
-        "pref": "埼玉県",
-        "date": "10/24",
-        "start": "13:30",
-        "end": "",
-        "capacity": 64,
-        "status": "先着受付中",
-        "status_code": 2,
-        "full": 1,
-        "restart": 0,
-        "recruit": 1,
-        "cancel": 0,
-        "url": "https://players.pokemon-card.com/event/detail/1116291/1/20582/20261024/1941866"
-      },
       "1941919": {
         "title": "メガエルレイドexSARゲットバトル【10月開催分】",
         "shop": "BOOKOFFSUPERBAZAAR町田中央通り店",
@@ -903,7 +887,7 @@
         "url": "https://players.pokemon-card.com/event/detail/1116411/1/14667/20261030/1941831"
       }
     },
-    "updated_at": "2026-09-21T01:37:50",
+    "updated_at": "2026-09-21T14:01:31",
     "search_url": "https://players.pokemon-card.com/event/search?keyword=%E3%82%A8%E3%83%AB%E3%83%AC%E3%82%A4%E3%83%89&start_date=2026%2F09%2F01&end_date=2026%2F12%2F31&reservation=1&accepting=true&order=1&prefecture[]=8&prefecture[]=9&prefecture[]=10&prefecture[]=11&prefecture[]=12&prefecture[]=13&prefecture[]=14"
   }
 }
