@@ -22,13 +22,13 @@
         "cancel": 0,
         "url": "https://players.pokemon-card.com/event/detail/1112606/1/18937/20260926/1910153"
       },
-      "1910596": {
+      "1910424": {
         "title": "メガエルレイドexSARゲットバトル【9月開催分】",
-        "shop": "ブックオフ港北綱島西店",
-        "pref": "神奈川県",
-        "date": "09/26",
-        "start": "14:15",
-        "end": "16:30",
+        "shop": "トーナメントセンターバトロコ　新津田沼駅前",
+        "pref": "千葉県",
+        "date": "09/28",
+        "start": "12:00",
+        "end": "18:00",
         "capacity": 64,
         "status": "先着受付中",
         "status_code": 2,
@@ -36,7 +36,7 @@
         "restart": 0,
         "recruit": 1,
         "cancel": 0,
-        "url": "https://players.pokemon-card.com/event/detail/1112614/1/19017/20260926/1910596"
+        "url": "https://players.pokemon-card.com/event/detail/1112653/1/18187/20260928/1910424"
       },
       "1942661": {
         "title": "メガエルレイドexSARゲットバトル【10月開催分】",
@@ -775,7 +775,7 @@
         "url": "https://players.pokemon-card.com/event/detail/1116407/1/10459/20261030/1941961"
       }
     },
-    "updated_at": "2026-09-24T23:54:53",
+    "updated_at": "2026-09-25T02:18:45",
     "search_url": "https://players.pokemon-card.com/event/search?keyword=%E3%82%A8%E3%83%AB%E3%83%AC%E3%82%A4%E3%83%89&start_date=2026%2F09%2F01&end_date=2026%2F12%2F31&reservation=1&accepting=true&order=1&prefecture[]=8&prefecture[]=9&prefecture[]=10&prefecture[]=11&prefecture[]=12&prefecture[]=13&prefecture[]=14"
   }
 }
