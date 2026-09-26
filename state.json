@@ -6,6 +6,22 @@
   },
   "関東 エルレイド 9-12月": {
     "events": {
+      "1910900": {
+        "title": "メガエルレイドexSARゲットバトル【9月開催分】",
+        "shop": "トレカショップKCC",
+        "pref": "埼玉県",
+        "date": "09/28",
+        "start": "13:00",
+        "end": "",
+        "capacity": 48,
+        "status": "先着受付中",
+        "status_code": 2,
+        "full": 1,
+        "restart": 0,
+        "recruit": 1,
+        "cancel": 0,
+        "url": "https://players.pokemon-card.com/event/detail/1112654/1/13186/20260928/1910900"
+      },
       "1910312": {
         "title": "メガエルレイドexSARゲットバトル【9月開催分】",
         "shop": "トーナメントセンターバトロコ　本厚木駅前",
@@ -53,22 +69,6 @@
         "recruit": 1,
         "cancel": 0,
         "url": "https://players.pokemon-card.com/event/detail/1115961/1/19004/20261008/1942177"
-      },
-      "1941958": {
-        "title": "メガエルレイドexSARゲットバトル【10月開催分】",
-        "shop": "フルコンプ　PLAYERS CENTER　八王子本店",
-        "pref": "東京都",
-        "date": "10/09",
-        "start": "13:00",
-        "end": "",
-        "capacity": 64,
-        "status": "先着受付中",
-        "status_code": 2,
-        "full": 0,
-        "restart": 0,
-        "recruit": 1,
-        "cancel": 0,
-        "url": "https://players.pokemon-card.com/event/detail/1115972/1/10459/20261009/1941958"
       },
       "1943017": {
         "title": "メガエルレイドexSARゲットバトル【10月開催分】",
@@ -679,7 +679,7 @@
         "url": "https://players.pokemon-card.com/event/detail/1116407/1/10459/20261030/1941961"
       }
     },
-    "updated_at": "2026-09-26T19:59:22",
+    "updated_at": "2026-09-26T22:18:31",
     "search_url": "https://players.pokemon-card.com/event/search?keyword=%E3%82%A8%E3%83%AB%E3%83%AC%E3%82%A4%E3%83%89&start_date=2026%2F09%2F01&end_date=2026%2F12%2F31&reservation=1&accepting=true&order=1&prefecture[]=8&prefecture[]=9&prefecture[]=10&prefecture[]=11&prefecture[]=12&prefecture[]=13&prefecture[]=14"
   }
 }
