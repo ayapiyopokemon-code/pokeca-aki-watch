@@ -22,6 +22,22 @@
         "cancel": 0,
         "url": "https://players.pokemon-card.com/event/detail/1112656/1/13701/20260928/1910312"
       },
+      "1910294": {
+        "title": "メガエルレイドexSARゲットバトル【9月開催分】",
+        "shop": "トーナメントセンターバトロコ　川崎駅前",
+        "pref": "神奈川県",
+        "date": "09/28",
+        "start": "14:30",
+        "end": "",
+        "capacity": 32,
+        "status": "先着受付中",
+        "status_code": 2,
+        "full": 1,
+        "restart": 0,
+        "recruit": 1,
+        "cancel": 0,
+        "url": "https://players.pokemon-card.com/event/detail/1112661/1/14705/20260928/1910294"
+      },
       "1910793": {
         "title": "メガエルレイドexSARゲットバトル【9月開催分】",
         "shop": "バトロコミニ前橋文京店",
@@ -54,21 +70,37 @@
         "cancel": 0,
         "url": "https://players.pokemon-card.com/event/detail/1112678/1/12739/20260930/1911231"
       },
-      "1942661": {
+      "1941867": {
         "title": "メガエルレイドexSARゲットバトル【10月開催分】",
-        "shop": "ブックエースTSUTAYA　勝田東石川店",
-        "pref": "茨城県",
-        "date": "10/07",
-        "start": "18:00",
-        "end": "22:00",
-        "capacity": 32,
+        "shop": "BOOKOFFSUPERBAZAAR東千葉祐光店",
+        "pref": "千葉県",
+        "date": "10/03",
+        "start": "15:30",
+        "end": "20:00",
+        "capacity": 64,
         "status": "先着受付中",
         "status_code": 2,
         "full": 1,
         "restart": 0,
         "recruit": 1,
         "cancel": 0,
-        "url": "https://players.pokemon-card.com/event/detail/1115956/1/12739/20261007/1942661"
+        "url": "https://players.pokemon-card.com/event/detail/1115885/1/14764/20261003/1941867"
+      },
+      "1942016": {
+        "title": "メガエルレイドexSARゲットバトル【10月開催分】",
+        "shop": "BOOKOFF SUPER BAZAAR 立川駅北口店",
+        "pref": "東京都",
+        "date": "10/09",
+        "start": "10:30",
+        "end": "13:30",
+        "capacity": 64,
+        "status": "先着受付中",
+        "status_code": 2,
+        "full": 1,
+        "restart": 0,
+        "recruit": 1,
+        "cancel": 0,
+        "url": "https://players.pokemon-card.com/event/detail/1115969/1/18174/20261009/1942016"
       },
       "1941958": {
         "title": "メガエルレイドexSARゲットバトル【10月開催分】",
@@ -165,22 +197,6 @@
         "recruit": 1,
         "cancel": 0,
         "url": "https://players.pokemon-card.com/event/detail/1116117/1/18425/20261015/1942445"
-      },
-      "1942018": {
-        "title": "メガエルレイドexSARゲットバトル【10月開催分】",
-        "shop": "BOOKOFF SUPER BAZAAR 立川駅北口店",
-        "pref": "東京都",
-        "date": "10/16",
-        "start": "10:30",
-        "end": "13:30",
-        "capacity": 64,
-        "status": "先着受付中",
-        "status_code": 2,
-        "full": 0,
-        "restart": 0,
-        "recruit": 1,
-        "cancel": 0,
-        "url": "https://players.pokemon-card.com/event/detail/1116122/1/18174/20261016/1942018"
       },
       "1943018": {
         "title": "メガエルレイドexSARゲットバトル【10月開催分】",
@@ -518,22 +534,6 @@
         "cancel": 0,
         "url": "https://players.pokemon-card.com/event/detail/1116350/1/19004/20261026/1942187"
       },
-      "1942147": {
-        "title": "メガエルレイドexSARゲットバトル【10月開催分】",
-        "shop": "トレカショップKCC",
-        "pref": "埼玉県",
-        "date": "10/26",
-        "start": "13:00",
-        "end": "",
-        "capacity": 56,
-        "status": "先着受付中",
-        "status_code": 2,
-        "full": 0,
-        "restart": 0,
-        "recruit": 1,
-        "cancel": 0,
-        "url": "https://players.pokemon-card.com/event/detail/1116351/1/13186/20261026/1942147"
-      },
       "1941879": {
         "title": "メガエルレイドexSARゲットバトル【10月開催分】",
         "shop": "ブックオフスーパーバザー　多摩永山",
@@ -743,7 +743,7 @@
         "url": "https://players.pokemon-card.com/event/detail/1116407/1/10459/20261030/1941961"
       }
     },
-    "updated_at": "2026-09-25T23:56:32",
+    "updated_at": "2026-09-26T03:12:30",
     "search_url": "https://players.pokemon-card.com/event/search?keyword=%E3%82%A8%E3%83%AB%E3%83%AC%E3%82%A4%E3%83%89&start_date=2026%2F09%2F01&end_date=2026%2F12%2F31&reservation=1&accepting=true&order=1&prefecture[]=8&prefecture[]=9&prefecture[]=10&prefecture[]=11&prefecture[]=12&prefecture[]=13&prefecture[]=14"
   }
 }
