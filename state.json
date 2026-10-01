@@ -6,6 +6,38 @@
   },
   "関東 エルレイド 9-12月": {
     "events": {
+      "1941957": {
+        "title": "メガエルレイドexSARゲットバトル【10月開催分】",
+        "shop": "フルコンプ　PLAYERS CENTER　八王子本店",
+        "pref": "東京都",
+        "date": "10/02",
+        "start": "13:00",
+        "end": "",
+        "capacity": 64,
+        "status": "先着受付中",
+        "status_code": 2,
+        "full": 1,
+        "restart": 0,
+        "recruit": 1,
+        "cancel": 0,
+        "url": "https://players.pokemon-card.com/event/detail/1115852/1/10459/20261002/1941957"
+      },
+      "1942500": {
+        "title": "メガエルレイドexSARゲットバトル【10月開催分】",
+        "shop": "BOOKOFF SUPERBAZAAR　PAPA上尾店",
+        "pref": "埼玉県",
+        "date": "10/05",
+        "start": "11:30",
+        "end": "17:00",
+        "capacity": 64,
+        "status": "先着受付中",
+        "status_code": 2,
+        "full": 1,
+        "restart": 0,
+        "recruit": 1,
+        "cancel": 0,
+        "url": "https://players.pokemon-card.com/event/detail/1115919/1/19051/20261005/1942500"
+      },
       "1941791": {
         "title": "メガエルレイドexSARゲットバトル【10月開催分】",
         "shop": "トーナメントセンターバトロコ　本厚木駅前",
@@ -22,13 +54,13 @@
         "cancel": 0,
         "url": "https://players.pokemon-card.com/event/detail/1115922/1/13701/20261005/1941791"
       },
-      "1942015": {
+      "1941900": {
         "title": "メガエルレイドexSARゲットバトル【10月開催分】",
-        "shop": "BOOKOFF SUPER BAZAAR 立川駅北口店",
-        "pref": "東京都",
+        "shop": "BOOKOFFSUPERBAZAAR東千葉祐光店",
+        "pref": "千葉県",
         "date": "10/07",
         "start": "10:30",
-        "end": "13:30",
+        "end": "15:00",
         "capacity": 64,
         "status": "先着受付中",
         "status_code": 2,
@@ -36,7 +68,7 @@
         "restart": 0,
         "recruit": 1,
         "cancel": 0,
-        "url": "https://players.pokemon-card.com/event/detail/1115946/1/18174/20261007/1942015"
+        "url": "https://players.pokemon-card.com/event/detail/1115947/1/14764/20261007/1941900"
       },
       "1941792": {
         "title": "メガエルレイドexSARゲットバトル【10月開催分】",
@@ -85,22 +117,6 @@
         "recruit": 1,
         "cancel": 0,
         "url": "https://players.pokemon-card.com/event/detail/1115972/1/10459/20261009/1941958"
-      },
-      "1942017": {
-        "title": "メガエルレイドexSARゲットバトル【10月開催分】",
-        "shop": "BOOKOFF SUPER BAZAAR 立川駅北口店",
-        "pref": "東京都",
-        "date": "10/14",
-        "start": "10:30",
-        "end": "13:30",
-        "capacity": 64,
-        "status": "先着受付中",
-        "status_code": 2,
-        "full": 1,
-        "restart": 0,
-        "recruit": 1,
-        "cancel": 0,
-        "url": "https://players.pokemon-card.com/event/detail/1116098/1/18174/20261014/1942017"
       },
       "1941875": {
         "title": "メガエルレイドexSARゲットバトル【10月開催分】",
@@ -197,22 +213,6 @@
         "recruit": 1,
         "cancel": 0,
         "url": "https://players.pokemon-card.com/event/detail/1116125/1/10459/20261016/1941959"
-      },
-      "1942146": {
-        "title": "メガエルレイドexSARゲットバトル【10月開催分】",
-        "shop": "トレカショップKCC",
-        "pref": "埼玉県",
-        "date": "10/19",
-        "start": "13:00",
-        "end": "",
-        "capacity": 56,
-        "status": "先着受付中",
-        "status_code": 2,
-        "full": 1,
-        "restart": 0,
-        "recruit": 1,
-        "cancel": 0,
-        "url": "https://players.pokemon-card.com/event/detail/1116203/1/13186/20261019/1942146"
       },
       "1941795": {
         "title": "メガエルレイドexSARゲットバトル【10月開催分】",
@@ -679,7 +679,7 @@
         "url": "https://players.pokemon-card.com/event/detail/1116407/1/10459/20261030/1941961"
       }
     },
-    "updated_at": "2026-10-01T00:23:54",
+    "updated_at": "2026-10-01T06:12:14",
     "search_url": "https://players.pokemon-card.com/event/search?keyword=%E3%82%A8%E3%83%AB%E3%83%AC%E3%82%A4%E3%83%89&start_date=2026%2F09%2F01&end_date=2026%2F12%2F31&reservation=1&accepting=true&order=1&prefecture[]=8&prefecture[]=9&prefecture[]=10&prefecture[]=11&prefecture[]=12&prefecture[]=13&prefecture[]=14"
   }
 }
