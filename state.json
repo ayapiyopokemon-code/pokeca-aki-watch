@@ -6,22 +6,6 @@
   },
   "関東 エルレイド 9-12月": {
     "events": {
-      "1942691": {
-        "title": "メガエルレイドexSARゲットバトル【10月開催分】",
-        "shop": "トーナメントセンターバトロコ　水戸駅前",
-        "pref": "茨城県",
-        "date": "10/03",
-        "start": "15:00",
-        "end": "",
-        "capacity": 64,
-        "status": "先着受付中",
-        "status_code": 2,
-        "full": 1,
-        "restart": 0,
-        "recruit": 1,
-        "cancel": 0,
-        "url": "https://players.pokemon-card.com/event/detail/1115879/1/12158/20261003/1942691"
-      },
       "1942693": {
         "title": "メガエルレイドexSARゲットバトル【10月開催分】",
         "shop": "トーナメントセンターバトロコ　水戸駅前",
@@ -518,6 +502,22 @@
         "cancel": 0,
         "url": "https://players.pokemon-card.com/event/detail/1116350/1/19004/20261026/1942187"
       },
+      "1942147": {
+        "title": "メガエルレイドexSARゲットバトル【10月開催分】",
+        "shop": "トレカショップKCC",
+        "pref": "埼玉県",
+        "date": "10/26",
+        "start": "13:00",
+        "end": "",
+        "capacity": 56,
+        "status": "先着受付中",
+        "status_code": 2,
+        "full": 1,
+        "restart": 0,
+        "recruit": 1,
+        "cancel": 0,
+        "url": "https://players.pokemon-card.com/event/detail/1116351/1/13186/20261026/1942147"
+      },
       "1941879": {
         "title": "メガエルレイドexSARゲットバトル【10月開催分】",
         "shop": "ブックオフスーパーバザー　多摩永山",
@@ -711,7 +711,7 @@
         "url": "https://players.pokemon-card.com/event/detail/1116407/1/10459/20261030/1941961"
       }
     },
-    "updated_at": "2026-10-02T19:25:35",
+    "updated_at": "2026-10-02T23:08:45",
     "search_url": "https://players.pokemon-card.com/event/search?keyword=%E3%82%A8%E3%83%AB%E3%83%AC%E3%82%A4%E3%83%89&start_date=2026%2F09%2F01&end_date=2026%2F12%2F31&reservation=1&accepting=true&order=1&prefecture[]=8&prefecture[]=9&prefecture[]=10&prefecture[]=11&prefecture[]=12&prefecture[]=13&prefecture[]=14"
   }
 }
