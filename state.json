@@ -6,22 +6,6 @@
   },
   "関東 エルレイド 9-12月": {
     "events": {
-      "1941944": {
-        "title": "メガエルレイドexSARゲットバトル【10月開催分】",
-        "shop": "カードショップ裁龍",
-        "pref": "茨城県",
-        "date": "10/12",
-        "start": "13:00",
-        "end": "",
-        "capacity": 64,
-        "status": "先着受付中",
-        "status_code": 2,
-        "full": 1,
-        "restart": 0,
-        "recruit": 1,
-        "cancel": 0,
-        "url": "https://players.pokemon-card.com/event/detail/1116052/1/12654/20261012/1941944"
-      },
       "1941946": {
         "title": "メガエルレイドexSARゲットバトル【10月開催分】",
         "shop": "カードショップ裁龍",
@@ -85,22 +69,6 @@
         "recruit": 1,
         "cancel": 0,
         "url": "https://players.pokemon-card.com/event/detail/1116125/1/10459/20261016/1941959"
-      },
-      "1942132": {
-        "title": "メガエルレイドexSARゲットバトル【10月開催分】",
-        "shop": "トレカショップKCC",
-        "pref": "埼玉県",
-        "date": "10/18",
-        "start": "12:00",
-        "end": "",
-        "capacity": 56,
-        "status": "先着受付中",
-        "status_code": 2,
-        "full": 1,
-        "restart": 0,
-        "recruit": 1,
-        "cancel": 0,
-        "url": "https://players.pokemon-card.com/event/detail/1116180/1/13186/20261018/1942132"
       },
       "1941795": {
         "title": "メガエルレイドexSARゲットバトル【10月開催分】",
@@ -567,7 +535,7 @@
         "url": "https://players.pokemon-card.com/event/detail/1116407/1/10459/20261030/1941961"
       }
     },
-    "updated_at": "2026-10-10T15:04:01",
+    "updated_at": "2026-10-10T19:14:41",
     "search_url": "https://players.pokemon-card.com/event/search?keyword=%E3%82%A8%E3%83%AB%E3%83%AC%E3%82%A4%E3%83%89&start_date=2026%2F09%2F01&end_date=2026%2F12%2F31&reservation=1&accepting=true&order=1&prefecture[]=8&prefecture[]=9&prefecture[]=10&prefecture[]=11&prefecture[]=12&prefecture[]=13&prefecture[]=14"
   }
 }
