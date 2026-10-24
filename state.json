@@ -6,70 +6,6 @@
   },
   "関東 エルレイド 9-12月": {
     "events": {
-      "1942401": {
-        "title": "メガエルレイドexSARゲットバトル【10月開催分】",
-        "shop": "ブックオフ　相模大野店",
-        "pref": "神奈川県",
-        "date": "10/25",
-        "start": "10:30",
-        "end": "",
-        "capacity": 64,
-        "status": "先着受付中",
-        "status_code": 2,
-        "full": 1,
-        "restart": 0,
-        "recruit": 1,
-        "cancel": 0,
-        "url": "https://players.pokemon-card.com/event/detail/1116315/1/18911/20261025/1942401"
-      },
-      "1941878": {
-        "title": "メガエルレイドexSARゲットバトル【10月開催分】",
-        "shop": "ブックオフスーパーバザー　多摩永山",
-        "pref": "東京都",
-        "date": "10/25",
-        "start": "13:30",
-        "end": "17:00",
-        "capacity": 32,
-        "status": "先着受付中",
-        "status_code": 2,
-        "full": 1,
-        "restart": 0,
-        "recruit": 1,
-        "cancel": 0,
-        "url": "https://players.pokemon-card.com/event/detail/1116331/1/20753/20261025/1941878"
-      },
-      "1942164": {
-        "title": "メガエルレイドexSARゲットバトル【10月開催分】",
-        "shop": "BOOKOFF　イオン橋本",
-        "pref": "神奈川県",
-        "date": "10/25",
-        "start": "14:30",
-        "end": "",
-        "capacity": 32,
-        "status": "先着受付中",
-        "status_code": 2,
-        "full": 1,
-        "restart": 0,
-        "recruit": 1,
-        "cancel": 0,
-        "url": "https://players.pokemon-card.com/event/detail/1116333/1/19993/20261025/1942164"
-      },
-      "1942402": {
-        "title": "メガエルレイドexSARゲットバトル【10月開催分】",
-        "shop": "ブックオフ　相模大野店",
-        "pref": "神奈川県",
-        "date": "10/25",
-        "start": "15:30",
-        "end": "",
-        "capacity": 64,
-        "status": "先着受付中",
-        "status_code": 2,
-        "full": 1,
-        "restart": 0,
-        "recruit": 1,
-        "cancel": 0,
-        "url": "https://players.pokemon-card.com/event/detail/1116340/1/18911/20261025/1942402"
-      },
       "1943022": {
         "title": "メガエルレイドexSARゲットバトル【10月開催分】",
         "shop": "トーナメントセンターバトロコ　新津田沼駅前",
@@ -293,25 +229,9 @@
         "recruit": 1,
         "cancel": 0,
         "url": "https://players.pokemon-card.com/event/detail/1116390/1/18425/20261028/1942449"
-      },
-      "1942678": {
-        "title": "メガエルレイドexSARゲットバトル【10月開催分】",
-        "shop": "TSUTAYA BOOKSTORE　そよら成田ニュータウン",
-        "pref": "千葉県",
-        "date": "10/31",
-        "start": "14:00",
-        "end": "18:00",
-        "capacity": 32,
-        "status": "先着受付中",
-        "status_code": 2,
-        "full": 1,
-        "restart": 0,
-        "recruit": 1,
-        "cancel": 0,
-        "url": "https://players.pokemon-card.com/event/detail/1116435/1/14154/20261031/1942678"
       }
     },
-    "updated_at": "2026-10-24T01:34:59",
+    "updated_at": "2026-10-24T06:22:51",
     "search_url": "https://players.pokemon-card.com/event/search?keyword=%E3%82%A8%E3%83%AB%E3%83%AC%E3%82%A4%E3%83%89&start_date=2026%2F09%2F01&end_date=2026%2F12%2F31&reservation=1&accepting=true&order=1&prefecture[]=8&prefecture[]=9&prefecture[]=10&prefecture[]=11&prefecture[]=12&prefecture[]=13&prefecture[]=14"
   }
 }
