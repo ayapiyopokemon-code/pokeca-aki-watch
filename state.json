@@ -70,22 +70,6 @@
         "cancel": 0,
         "url": "https://players.pokemon-card.com/event/detail/1116340/1/18911/20261025/1942402"
       },
-      "1941919": {
-        "title": "メガエルレイドexSARゲットバトル【10月開催分】",
-        "shop": "BOOKOFFSUPERBAZAAR町田中央通り店",
-        "pref": "東京都",
-        "date": "10/26",
-        "start": "10:00",
-        "end": "13:30",
-        "capacity": 64,
-        "status": "先着受付中",
-        "status_code": 2,
-        "full": 1,
-        "restart": 0,
-        "recruit": 1,
-        "cancel": 0,
-        "url": "https://players.pokemon-card.com/event/detail/1116345/1/19083/20261026/1941919"
-      },
       "1943022": {
         "title": "メガエルレイドexSARゲットバトル【10月開催分】",
         "shop": "トーナメントセンターバトロコ　新津田沼駅前",
@@ -101,22 +85,6 @@
         "recruit": 1,
         "cancel": 0,
         "url": "https://players.pokemon-card.com/event/detail/1116347/1/18187/20261026/1943022"
-      },
-      "1942187": {
-        "title": "メガエルレイドexSARゲットバトル【10月開催分】",
-        "shop": "BOOKOFF イオン本牧店",
-        "pref": "神奈川県",
-        "date": "10/26",
-        "start": "13:00",
-        "end": "",
-        "capacity": 32,
-        "status": "先着受付中",
-        "status_code": 2,
-        "full": 1,
-        "restart": 0,
-        "recruit": 1,
-        "cancel": 0,
-        "url": "https://players.pokemon-card.com/event/detail/1116350/1/19004/20261026/1942187"
       },
       "1942147": {
         "title": "メガエルレイドexSARゲットバトル【10月開催分】",
@@ -325,9 +293,25 @@
         "recruit": 1,
         "cancel": 0,
         "url": "https://players.pokemon-card.com/event/detail/1116390/1/18425/20261028/1942449"
+      },
+      "1942678": {
+        "title": "メガエルレイドexSARゲットバトル【10月開催分】",
+        "shop": "TSUTAYA BOOKSTORE　そよら成田ニュータウン",
+        "pref": "千葉県",
+        "date": "10/31",
+        "start": "14:00",
+        "end": "18:00",
+        "capacity": 32,
+        "status": "先着受付中",
+        "status_code": 2,
+        "full": 1,
+        "restart": 0,
+        "recruit": 1,
+        "cancel": 0,
+        "url": "https://players.pokemon-card.com/event/detail/1116435/1/14154/20261031/1942678"
       }
     },
-    "updated_at": "2026-10-23T23:10:08",
+    "updated_at": "2026-10-24T01:34:59",
     "search_url": "https://players.pokemon-card.com/event/search?keyword=%E3%82%A8%E3%83%AB%E3%83%AC%E3%82%A4%E3%83%89&start_date=2026%2F09%2F01&end_date=2026%2F12%2F31&reservation=1&accepting=true&order=1&prefecture[]=8&prefecture[]=9&prefecture[]=10&prefecture[]=11&prefecture[]=12&prefecture[]=13&prefecture[]=14"
   }
 }
